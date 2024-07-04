@@ -1,0 +1,12 @@
+.error{
+    color: red;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 3px;
+}
+.form-group.success{
+    border:1px solid green;
+}
+.form-group.error{
+    border: 1px solid red;
+}
