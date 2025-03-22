@@ -6,6 +6,35 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+  <style>
+    .work-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%; /* Ensures all boxes have equal height */
+    border: 1px solid #ddd; /* Optional: for visibility */
+    padding: 10px;
+}
+
+.work-box video {
+    width: 100%; /* Ensures video takes full width */
+    height: 200px; /* Adjust height to maintain consistency */
+    object-fit: cover; /* Ensures video fits well */
+}
+
+.work-content {
+    flex-grow: 1; /* Pushes content to take remaining space */
+    text-align: center;
+}
+.card-blog {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+
+  </style>
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
